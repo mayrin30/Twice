@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;
+padding: 0;}
+
+body{ background-image: url("../img/back7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+	text-align: center;
+	color: azure;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+.wrapper{
+	background-color:rgba(233,129,130,0.51);
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	font-size: 10px;
+	background-color: #fe7ba3;
+	height: 50px;
+	line-height: 50px;
+}
+
+.menu{
+	background-color:rgba(249,153,140,1.00);
+	height:220px; 
+	}
+	
+ul{
+	list-style-type: none;
+	}
+li{
+	width: 249px;
+	float: left;
+	border-left:1px solid deeppink;
+	line-height: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+	
+#izquierdo{
+	border-left: none;
+		
+}
+
+
+h1{
+	font-size: 60px;
+	line-height: 180px;
+	
+}
+
+.fondo {
+	background-color: indianred;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	margin: 50px;
+	
+}
+
+.fondo p {
+	text-align: justify;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+h2{
+	color: bisque;
+	border-top: 1px solid bisque;
+	border-bottom: 1px solid bisque;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 50px;
+	
+}
+
+h3 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.polaroid{
+	width: 317px; height: 380px;
+	background-color: beige;
+	color: hotpink;
+	box-shadow: 10px 10px 20px black;
+	float: left;
+	margin: 8px;
+	
+}
+
+.clear{
+	clear: both;
+}
+/*la propiedad clear permite que aparezca wrapper despuede de colocar la propiedar float left*/
+/*valores de box shadow x, y, difuminado y color */
+
+a{
+	text-decoration: none;
+	color: azure;
+	}
+
+a:hover{ color: deeppink;
+	font-size: 30px;
+	
+}
